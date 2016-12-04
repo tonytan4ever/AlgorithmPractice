@@ -1,33 +1,55 @@
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
+*.py[cod]
+.DS_Store
 
-# Python no used file
-*.pyc
+# C extensions
+*.so
 
-# External tool builders
-.externalToolBuilders/
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+public
+.webassets-cache
+__pycache__
 
-# Locally stored "Eclipse launch configurations"
-*.launch
+# Installer logs
+pip-log.txt
+*.log
 
-# CDT-specific
-.cproject
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+tests/cover
+tests/logs
 
-# PDT-specific
-.buildpath
+# Translations
+*.mo
 
-# sbteclipse plugin 
-.target
+# Generated Assets
+shell/static/public/*
+shell/static/.webassets-cache/*
 
-# TeXlipse plugin
-.texlipse
+# Database files
+database.db
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+venv
+docker_rsa*
+write_file
+.settings/*
+
+# patch files
+*.patch

@@ -21,4 +21,7 @@ Get your hands dirty by mannually calculate the following:
 | x ^ 1s = ~x | x & 1s = x | x &#124; 1s = 1s |
 | x ^ x = 0   | x & x = x  | x &#124; x = x   |
  
-## Commmon Bit Tasks: Get, Set, Clearn and Update Bit
+## Commmon Bit Tasks: Get, Set, Clearn and Update Bit:
+
+ [Bit GSCU](https://github.com/tonytan4ever/AlgorithmPractice/blob/master/BitManipulation/common_bit_tasks.py)
+  
